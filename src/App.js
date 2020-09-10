@@ -27,10 +27,10 @@ function App() {
               </Link>
             </li>
             <li>
-              <Link to="/user/bob/bobrich">User</Link>
+              <Link to="/user/bob/bobizzle">User</Link>
             </li>
           </ul>
-          <div>
+          <div className="output">
             <Switch>
               <Route exact path="/" component={Home} />
               <Route exact path="/about" component={About} />

@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: linear-gradient(hotpink, yellow);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -28,16 +28,34 @@
   color: #61dafb;
 }
 
+button {
+  background-color: darkgray;
+  border-radius: 1em;
+  margin: 1em;
+  color: white;
+  padding: 0.5em;
+  box-shadow: 0.12em;
+  cursor: pointer;
+}
+
+.output {
+  display: flex;
+  flex-direction: column;
+  width: 10em;
+}
+
 ul {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 
 li {
-  width: 200px;
+  width: 6em;
   list-style-type: none;
-  border: 1px solid gray;
-  padding: 5px;
+  border: 1px solid gainsboro;
+  padding: 1em;
 }
 
 a {
