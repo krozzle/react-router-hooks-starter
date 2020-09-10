@@ -6,4 +6,4 @@ A small application about react-router hooks
 
 ### used technologies
 
-React, React-Router
+[React](reactjs.org), [React-Router](reactrouter.com)
