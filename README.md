@@ -1,2 +1,5 @@
 # react-router-hooks-starter
-Testing React-Router hooks
+
+A small application about react-router hooks
+
+`useLocation, useParams & useHistory`
